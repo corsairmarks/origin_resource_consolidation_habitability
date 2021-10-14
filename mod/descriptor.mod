@@ -3,6 +3,7 @@ tags={
 	"Balance"
 	"Galaxy Generation"
 	"Gameplay"
+	"Species"
 }
 version="1.0.0"
 picture="thumbnail.png"
