@@ -12,6 +12,10 @@ Built for Stellaris version 3.1.\* "Lem."  Not compatible with achievements.
 
 Should be compatible with almost anything.  If other mods add new origins which also start on a machine world, this mod will **not** affect them.
 
+### Not Included in "Subtle Polish"
+
+This mod is intentionally not included in my modpack [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) because it is a significant penalty to Origin: Resource Consolidation empires with a non-Lithoid cyborg secondary species.
+
 ### When to Install
 
 This mod can be safely added or removed from your save game after the game has started.  The code in this mod executes entirely during game setup - if the game was started with the mod, its effects have already been applied, otherwise no code will be executed.
