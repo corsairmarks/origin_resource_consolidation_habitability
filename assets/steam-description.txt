@@ -26,7 +26,7 @@ Because of how species modification at game start works, you will have an "extra
 
 [h2]Changelog[/h2]
 
-See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/]Change Notes[/url]
+See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2627738108]Change Notes[/url]
 
 [h2]Source Code[/h2]
 
