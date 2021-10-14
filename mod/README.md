@@ -1,0 +1,33 @@
+# Overview
+
+Driven Assimilators and Rogue Servitors with Origin: Resource Consolidation do not have their biological (Cyborg Species/Bio-Trophies) species's habitability preference set to machine.  This mod changes that by adding an extra event before initial empire Pops are generated to adjust habitability for these empire types with Origin: Resource Consolidation.
+
+# Changes
+
+This mod adds an extra event which is triggered after each empire's capital planet is initialized.  The event applies to Driven Assimilators (and Rogue Servitors - just in case) with the origin Resource Consolidation (aka Machine World).  The secondary, non-robotic species is altered to have ideal habitability for Machine Worlds (`pc_machine`).
+
+## Compatibility
+
+Built for Stellaris version 3.1.\* "Lem."  Not compatible with achievements.
+
+Should be compatible with almost anything.  If other mods add new origins which also start on a machine world, this mod will **not** affect them.
+
+### When to Install
+
+This mod can be safely added or removed from your save game after the game has started.  The code in this mod executes entirely during game setup - if the game was started with the mod, its effects have already been applied, otherwise no code will be executed.
+
+## Known Issues
+
+Because of how species modification at game start works, you will have an "extra" species with no Pops in your species tab with the original planetary preference from empire design.  This extra parent species will not be hidden (uses the same type of modification as Origin: Shattered Ring in the base game).
+
+## Changelog
+
+* 1.0.0 Initial version
+
+## Source Code
+
+Hosted on [GitHub](https://github.com/corsairmarks/origin_resource_consolidation_habitability)
+
+### Development Notes
+
+It is best to clone this repository into `<Stellaris User's Directory>/Paradox Interactive/Stellaris/mod`, and then make a connection to the `mod` folder via a `*.mod` file's `path` property.  That will ensure the game can see the files, and also that CWTools will parse them.  Also note that the README.md file exists in the `mod` directory but is symbolically linked in the root directory.

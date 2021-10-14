@@ -1,0 +1,8 @@
+# fired during empire initialization when starting a new game
+# this = planet
+# from = species, founder
+empire_init_capital_planet = {
+	events = {
+		origin_resource_consolidation_habitability.1
+	}
+}

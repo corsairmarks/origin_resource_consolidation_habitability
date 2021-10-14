@@ -1,0 +1,28 @@
+namespace = origin_resource_consolidation_habitability
+
+planet_event = {
+	id = origin_resource_consolidation_habitability.1
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		owner = {
+			has_origin = origin_machine
+			OR = {
+				has_valid_civic = civic_machine_servitor # just in case someone allows it...
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+	immediate = {
+		# similar logic to how generate_start_pops sets ringworld habitability (common/scripted_effects/01_start_of_game_effects.txt)
+		last_created_species = {
+			if = {
+				limit = { NOT = { ideal_planet_class = pc_machine } }
+				modify_species = {
+					species = this
+					ideal_planet_class = pc_machine
+				}
+			}
+		}
+	}
+}
