@@ -16,6 +16,10 @@ Should be compatible with almost anything.  If other mods add new origins which 
 
 This mod is intentionally not included in my modpack [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) because it is a significant penalty to Origin: Resource Consolidation empires with a non-Lithoid cyborg secondary species.
 
+### Recommended Companion Mods
+
+[Planetary Modifier Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2496357128) patches the game setup process so any gas giants in your home system don't lose the Chthonian Planet modifiers.  The modifier is from the base game and is purely cosmetic.  It also lightly enhances Extensive Moons System and the C.A.R.E planet special modifier.
+
 ### When to Install
 
 This mod can be safely added or removed from your save game after the game has started.  The code in this mod executes entirely during game setup - if the game was started with the mod, its effects have already been applied, otherwise no code will be executed.
