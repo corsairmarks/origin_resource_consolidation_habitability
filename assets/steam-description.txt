@@ -1,39 +1,30 @@
 [h1]Overview[/h1]
-
 Driven Assimilators and Rogue Servitors with Origin: Resource Consolidation do not have their biological (Cyborg Species/Bio-Trophies) species's habitability preference set to machine.  This mod changes that by adding an extra event before initial empire Pops are generated to adjust habitability for these empire types with Origin: Resource Consolidation.
 
 [h1]Changes[/h1]
-
 This mod adds an extra event which is triggered after each empire's capital planet is initialized.  The event applies to Driven Assimilators (and Rogue Servitors - just in case) with the origin Resource Consolidation (aka Machine World).  The secondary, non-robotic species is altered to have ideal habitability for Machine Worlds ([b]pc_machine[/b]).
 
 [h2]Compatibility[/h2]
-
-Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
+Built for Stellaris version 3.3 "Libra" and backwards-compatible with version 3.2 "Herbert."  Not compatible with achievements.
 
 Should be compatible with almost anything.  If other mods add new origins which also start on a machine world, this mod will [b]not[/b] affect them.
 
 [h3]Not Included in "Subtle Polish"[/h3]
-
 This mod is intentionally not included in my modpack [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] because it is a significant penalty to Origin: Resource Consolidation empires with a non-Lithoid cyborg secondary species.
 
 [h3]Recommended Companion Mods[/h3]
-
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2496357128]Planetary Modifier Enhancements[/url] patches the game setup process so any gas giants in your home system don't lose the Chthonian Planet modifiers.  The modifier is from the base game and is purely cosmetic.  It also lightly enhances Extensive Moons System and the C.A.R.E planet special modifier.
 
 [h3]When to Install[/h3]
-
 This mod can be safely added or removed from your save game after the game has started.  The code in this mod executes entirely during game setup - if the game was started with the mod, its effects have already been applied, otherwise no code will be executed.
 
 [h2]Known Issues[/h2]
-
 Because of how species modification at game start works, you will have an "extra" species with no Pops in your species tab with the original planetary preference from empire design.  This extra parent species will not be hidden (uses the same type of modification as Origin: Shattered Ring in the base game).
 
 [h2]Changelog[/h2]
-
 See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2627738108]Change Notes[/url]
 
 [h2]Source Code[/h2]
-
 Hosted on [url=https://github.com/corsairmarks/origin_resource_consolidation_habitability]GitHub[/url]
 
 [url=https://discord.gg/bHVez2C][img]https://i.imgur.com/4Und3QN.png[/img][/url]
