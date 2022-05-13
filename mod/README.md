@@ -8,7 +8,7 @@ This mod adds an extra event which is triggered after each empire's capital plan
 
 ## Compatibility
 
-Built for Stellaris version 3.3 "Libra" and backwards-compatible with version 3.2 "Herbert."  Not compatible with achievements.
+Built for Stellaris version 3.4 "Cepheus" and backwards-compatible with version 3.2 "Herbert."  Not compatible with achievements.
 
 Should be compatible with almost anything.  If other mods add new origins which also start on a machine world, this mod will **not** affect them.
 
@@ -33,6 +33,7 @@ Because of how species modification at game start works, you will have an "extra
 * 1.0.0 Initial version
 * 1.1.0 Mark as compatible with Stellaris 3.2 "Herbert" - no script changes
 * 1.2.0 Mark as compatible with Stellaris 3.3 "Libra" - no script changes
+* 1.3.0 Mark as compatible with Stellaris 3.4 "Cepheus" - no script changes
 
 ## Source Code
 
