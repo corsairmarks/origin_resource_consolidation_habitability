@@ -31,9 +31,10 @@ Because of how species modification at game start works, you will have an "extra
 ## Changelog
 
 * 1.0.0 Initial version
-* 1.1.0 Mark as compatible with Stellaris 3.2 "Herbert" - no script changes
-* 1.2.0 Mark as compatible with Stellaris 3.3 "Libra" - no script changes
-* 1.3.0 Mark as compatible with Stellaris 3.4 "Cepheus" - no script changes
+* 1.1.0 Mark as compatible with Stellaris version 3.2 "Herbert" - no script changes
+* 1.2.0 Mark as compatible with Stellaris version 3.3 "Libra" - no script changes
+* 1.3.0 Mark as compatible with Stellaris version 3.4 "Cepheus" - no script changes
+* 1.4.0 Mark as compatible with Stellaris version 3.6 "Orion" - no script changes
 
 ## Source Code
 
