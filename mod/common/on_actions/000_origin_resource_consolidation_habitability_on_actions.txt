@@ -6,3 +6,11 @@ empire_init_capital_planet = {
 		origin_resource_consolidation_habitability.1
 	}
 }
+
+# fired on game start
+# this = country
+on_game_start_country = {
+	events = {
+		origin_resource_consolidation_habitability.4
+	}
+}

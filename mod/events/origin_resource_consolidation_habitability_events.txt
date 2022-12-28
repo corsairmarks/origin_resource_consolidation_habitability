@@ -4,6 +4,9 @@ planet_event = {
 	id = origin_resource_consolidation_habitability.1
 	is_triggered_only = yes
 	hide_window = yes
+	pre_triggers = {
+		has_owner = yes
+	}
 	trigger = {
 		owner = {
 			has_origin = origin_machine
@@ -21,6 +24,68 @@ planet_event = {
 				modify_species = {
 					species = this
 					ideal_planet_class = pc_machine
+				}
+			}
+		}
+	}
+}
+
+# based on necroids.4, triggered by on_game_start_country
+country_event = {
+	id = origin_resource_consolidation_habitability.4
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		has_origin = origin_machine
+		exists = capital_scope
+	}
+	immediate = {
+		capital_scope.solar_system = {
+			closest_system = {
+				limit = { has_star_flag = neighbor_t1_first_colony }
+				max_steps = 3
+				random_system_planet = {
+					limit = {
+						is_colonizable = yes
+						is_colony = no
+						has_planet_flag = prescripted_ideal
+					}
+					change_pc = rl_habitable_normal
+					generate_very_early_primitives_on_planet = yes
+					set_name = random
+					change_colony_foundation_date = -568
+					while = {
+						count = 4
+						create_army = {
+							owner = last_created_country
+							type = primitive_additional_army
+							species = last_created_country
+						}
+					}
+				}
+			}
+			reroll_random = yes
+			closest_system = {
+				limit = { has_star_flag = neighbor_t2_second_colony }
+				max_steps = 6
+				random_system_planet = {
+					limit = {
+						is_colonizable = yes
+						is_colony = no
+						has_planet_flag = prescripted_ideal
+					}
+					change_pc = rl_habitable_normal
+					generate_very_early_primitives_on_planet = yes
+					set_name = random
+					change_colony_foundation_date = -1597
+					while = {
+						count = 4
+						create_army = {
+							owner = last_created_country
+							type = primitive_additional_army
+							species = last_created_country
+						}
+					}
 				}
 			}
 		}
