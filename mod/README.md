@@ -38,6 +38,7 @@ Because of how species modification at game start works, you will have an "extra
 * 1.3.0 Mark as compatible with Stellaris version 3.4 "Cepheus" - no script changes
 * 1.4.0 Mark as compatible with Stellaris version 3.6 "Orion" - no script changes
 * 1.5.0 Resource Consolidation guaranteed colonies are now primitives (like Necrophages) with random habitable planet classes
+* 1.6.0 Add a compatibility trigger for other mods to check whether this one is active
 
 ## Source Code
 
