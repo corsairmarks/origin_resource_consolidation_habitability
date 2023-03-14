@@ -51,7 +51,7 @@ country_event = {
 						has_planet_flag = prescripted_ideal
 					}
 					change_pc = rl_habitable_normal
-					generate_very_early_primitives_on_planet = yes
+					generate_very_early_pre_ftls_on_planet = yes
 					set_name = random
 					change_colony_foundation_date = -568
 					while = {
@@ -75,7 +75,7 @@ country_event = {
 						has_planet_flag = prescripted_ideal
 					}
 					change_pc = rl_habitable_normal
-					generate_very_early_primitives_on_planet = yes
+					generate_very_early_pre_ftls_on_planet = yes
 					set_name = random
 					change_colony_foundation_date = -1597
 					while = {
