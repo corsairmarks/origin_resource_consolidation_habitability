@@ -7,7 +7,7 @@ Because the starting Cyborg Species now prefers Machine Worlds, the guaranteed h
 This mod adds an extra event which is triggered after each empire's capital planet is initialized.  The event applies to Driven Assimilators (and Rogue Servitors - just in case) with the origin Resource Consolidation (aka Machine World).  The secondary, non-robotic species is altered to have ideal habitability for Machine Worlds ([b]pc_machine[/b]). It also adds an extra event to set up the starting primitive worlds.
 
 [h2]Compatibility[/h2]
-Built for Stellaris version 3.6 "Orion" and backwards-compatible with versions 3.5 "Fornax," 3.4 "Cepheus," 3.3 "Libra," and 3.2 "Herbert."  Not compatible with achievements.
+Built for Stellaris version 3.7 "Canis Minor."  Not compatible with achievements.
 
 Should be compatible with almost anything.  If other mods add new origins which also start on a machine world, this mod will [b]not[/b] affect them.
 

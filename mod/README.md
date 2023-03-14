@@ -10,7 +10,7 @@ This mod adds an extra event which is triggered after each empire's capital plan
 
 ## Compatibility
 
-Built for Stellaris version 3.6 "Orion" and backwards-compatible with versions 3.5 "Fornax," 3.4 "Cepheus," 3.3 "Libra," and 3.2 "Herbert."  Not compatible with achievements.
+Built for Stellaris version 3.7 "Canis Minor."  Not compatible with achievements.
 
 Should be compatible with almost anything.  If other mods add new origins which also start on a machine world, this mod will **not** affect them.
 
@@ -39,6 +39,7 @@ Because of how species modification at game start works, you will have an "extra
 * 1.4.0 Mark as compatible with Stellaris version 3.6 "Orion" - no script changes
 * 1.5.0 Resource Consolidation guaranteed colonies are now primitives (like Necrophages) with random habitable planet classes
 * 1.6.0 Add a compatibility trigger for other mods to check whether this one is active
+* 2.0.0 Update for Stellaris version 3.7 "Canis Minor" - integrate underlying game changes
 
 ## Source Code
 
