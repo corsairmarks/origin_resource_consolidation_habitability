@@ -1,4 +1,4 @@
-name="Machine World Preference for Resource Consolidation"
+name="Origin: Resource Consolidation - Machine World Preference"
 tags={
 	"Balance"
 	"Galaxy Generation"
