@@ -41,6 +41,7 @@ Because of how species modification at game start works, you will have an "extra
 * 1.6.0 Add a compatibility trigger for other mods to check whether this one is active
 * 2.0.0 Update for Stellaris version 3.7 "Canis Minor" - integrate underlying game changes
 * 2.1.0 Mark as compatible with Stellaris version 3.8 "Gemini" - no script changes
+* 2.1.1 Update for Stellaris version 3.8.3 "Gemini" - ensure primitive armies spawn on the surface of their planets
 
 ## Source Code
 
