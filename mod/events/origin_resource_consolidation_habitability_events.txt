@@ -60,6 +60,7 @@ country_event = {
 							owner = last_created_country
 							type = primitive_additional_army
 							species = last_created_country
+							land_army = yes
 						}
 					}
 				}
@@ -84,6 +85,7 @@ country_event = {
 							owner = last_created_country
 							type = primitive_additional_army
 							species = last_created_country
+							land_army = yes
 						}
 					}
 				}
