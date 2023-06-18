@@ -2,11 +2,11 @@
 
 Driven Assimilators and Rogue Servitors with Origin: Resource Consolidation do not have their biological (Cyborg Species/Bio-Trophies) species's habitability preference set to machine.  This mod changes that by adding an extra event before initial empire Pops are generated to adjust habitability for these empire types with Origin: Resource Consolidation.
 
-Because the starting Cyborg Species now prefers Machine Worlds, the guaranteed habitable worlds are instead random habitable classes. These worlds are also occupied with (very) early primitives, similar to Origin: Necrophage.
+Because the starting Cyborg Species now prefers Machine Worlds, the guaranteed habitable worlds are instead random habitable classes. These worlds are also occupied with (very) early pre-FTLs, similar to Origin: Necrophage.
 
 # Changes
 
-This mod adds an extra event which is triggered after each empire's capital planet is initialized.  The event applies to Driven Assimilators (and Rogue Servitors - just in case) with the origin Resource Consolidation (aka Machine World).  The secondary, non-robotic species is altered to have ideal habitability for Machine Worlds (`pc_machine`). It also adds an extra event to set up the starting primitive worlds.
+This mod adds an extra event which is triggered after each empire's capital planet is initialized.  The event applies to Driven Assimilators (and Rogue Servitors - just in case) with the origin Resource Consolidation (aka Machine World).  The secondary, non-robotic species is altered to have ideal habitability for Machine Worlds (`pc_machine`). It also adds an extra event to set up the starting pre-FTL worlds.
 
 ## Compatibility
 
@@ -37,11 +37,11 @@ Because of how species modification at game start works, you will have an "extra
 * 1.2.0 Mark as compatible with Stellaris version 3.3 "Libra" - no script changes
 * 1.3.0 Mark as compatible with Stellaris version 3.4 "Cepheus" - no script changes
 * 1.4.0 Mark as compatible with Stellaris version 3.6 "Orion" - no script changes
-* 1.5.0 Resource Consolidation guaranteed colonies are now primitives (like Necrophages) with random habitable planet classes
+* 1.5.0 Resource Consolidation guaranteed colonies are now pre-FTLs (like Necrophages) with random habitable planet classes
 * 1.6.0 Add a compatibility trigger for other mods to check whether this one is active
 * 2.0.0 Update for Stellaris version 3.7 "Canis Minor" - integrate underlying game changes
 * 2.1.0 Mark as compatible with Stellaris version 3.8 "Gemini" - no script changes
-* 2.1.1 Update for Stellaris version 3.8.3 "Gemini" - ensure primitive armies spawn on the surface of their planets
+* 2.1.1 Update for Stellaris version 3.8.3 "Gemini" - ensure pre-FTL armies spawn on the surface of their planets
 
 ## Source Code
 

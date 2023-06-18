@@ -1,10 +1,10 @@
 [h1]Overview[/h1]
 Driven Assimilators and Rogue Servitors with Origin: Resource Consolidation do not have their biological (Cyborg Species/Bio-Trophies) species's habitability preference set to machine.  This mod changes that by adding an extra event before initial empire Pops are generated to adjust habitability for these empire types with Origin: Resource Consolidation.
 
-Because the starting Cyborg Species now prefers Machine Worlds, the guaranteed habitable worlds are instead random habitable classes. These worlds are also occupied with (very) early primitives, similar to Origin: Necrophage.
+Because the starting Cyborg Species now prefers Machine Worlds, the guaranteed habitable worlds are instead random habitable classes. These worlds are also occupied with (very) early pre-FTLs, similar to Origin: Necrophage.
 
 [h1]Changes[/h1]
-This mod adds an extra event which is triggered after each empire's capital planet is initialized.  The event applies to Driven Assimilators (and Rogue Servitors - just in case) with the origin Resource Consolidation (aka Machine World).  The secondary, non-robotic species is altered to have ideal habitability for Machine Worlds ([b]pc_machine[/b]). It also adds an extra event to set up the starting primitive worlds.
+This mod adds an extra event which is triggered after each empire's capital planet is initialized.  The event applies to Driven Assimilators (and Rogue Servitors - just in case) with the origin Resource Consolidation (aka Machine World).  The secondary, non-robotic species is altered to have ideal habitability for Machine Worlds ([b]pc_machine[/b]). It also adds an extra event to set up the starting pre-FTL worlds.
 
 [h2]Compatibility[/h2]
 Built for Stellaris version 3.8 "Gemini."  Not compatible with achievements.
